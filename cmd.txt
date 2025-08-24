@@ -1,0 +1,11 @@
+https://developers.google.com/codelabs/pwa-in-play
+https://web.dev/using-a-pwa-in-your-android-app/
+https://github.com/GoogleChromeLabs/bubblewrap/tree/main/packages/cli
+
+bubblewrap init --manifest=https://country-codes.vercel.app/manifest.json
+
+bubblewrap build
+
+bubblewrap fingerprint add <fingerprint>
+
+bubblewrap build

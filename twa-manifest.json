@@ -1,0 +1,62 @@
+{
+  "packageId": "app.vercel.country_codes.twa",
+  "host": "country-codes.vercel.app",
+  "name": "Country Codes",
+  "launcherName": "CountryCodes",
+  "display": "standalone",
+  "themeColor": "#E9ECEF",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#F8F9FA",
+  "enableNotifications": true,
+  "startUrl": "/?source=android-twa",
+  "iconUrl": "https://country-codes.vercel.app/media/android-chrome-512x512.png",
+  "maskableIconUrl": "https://country-codes.vercel.app/media/android-chrome-maskable-512x512.png",
+  "monochromeIconUrl": "https://country-codes.vercel.app/media/monochrome-256x256.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "D:\\Android\\countrycodes.keystore",
+    "alias": "countrycodes"
+  },
+  "appVersionName": "2",
+  "appVersionCode": 2,
+  "shortcuts": [
+    {
+      "name": "Lookup Country",
+      "shortName": "Lookup Count",
+      "url": "https://country-codes.vercel.app/?source=pwa",
+      "chosenIconUrl": "https://country-codes.vercel.app/media/search-192x192.png",
+      "chosenMonochromeIconUrl": "https://country-codes.vercel.app/media/search-192x192.png"
+    },
+    {
+      "name": "Interconvert Codes",
+      "shortName": "Interconvert",
+      "url": "https://country-codes.vercel.app/interconvert?source=pwa",
+      "chosenIconUrl": "https://country-codes.vercel.app/media/interconvert-192x192.png",
+      "chosenMonochromeIconUrl": "https://country-codes.vercel.app/media/interconvert-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://country-codes.vercel.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://country-codes.vercel.app/",
+  "minSdkVersion": 19,
+  "orientation": "any",
+  "fingerprints": [
+    {
+      "value": "AF:14:DC:03:8F:D5:AD:61:6B:7B:52:5C:87:AC:24:60:71:B6:4B:91:3C:83:59:8E:B1:0D:99:A0:43:C9:59:F2"
+    }
+  ],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "2"
+}
