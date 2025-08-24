@@ -4,8 +4,14 @@ https://github.com/GoogleChromeLabs/bubblewrap/tree/main/packages/cli
 
 bubblewrap init --manifest=https://country-codes.vercel.app/manifest.json
 
-bubblewrap build
-
 bubblewrap fingerprint add <fingerprint>
 
 bubblewrap build
+
+bubblewrap update --appVersionName="2.1"
+
+OR
+Edit twa-manifest.json and run bubblewrap build
+
+? There are changes in twa-manifest.json. Would you like to apply them to the project before building? Yes
+? versionName for the new App version: 2.1

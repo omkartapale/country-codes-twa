@@ -1,8 +1,0 @@
-app/vercel/country_codes/twa/BuildConfig.java
- app.vercel.country_codes.twa.BuildConfig
-app/vercel/country_codes/twa/DelegationService.java
- app.vercel.country_codes.twa.DelegationService
-app/vercel/country_codes/twa/LauncherActivity.java
- app.vercel.country_codes.twa.LauncherActivity
-app/vercel/country_codes/twa/Application.java
- app.vercel.country_codes.twa.Application
