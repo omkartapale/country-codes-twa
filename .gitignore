@@ -6,6 +6,9 @@ dist
 .gradle
 app/build
 /build/
+**.aab
+**.apk
+**.idsig
 
 # IntelliJ related
 *.iml
